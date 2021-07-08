@@ -19,7 +19,8 @@ const Login = () => {
     const [loggedInUser, setloggedInUser] = useContext(userContext);
     const history = useHistory()
     const location = useLocation()
-    let { from } = location.state || { from: { pathname: "/" } };
+    document.title = "Login"
+     let { from } = location.state || { from: { pathname: "/" } };
 
     const [user, setUser] = useState({
         isSignedIn: false,

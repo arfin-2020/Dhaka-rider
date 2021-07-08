@@ -61,6 +61,7 @@ const Search = () => {
     const [loggedInUser, setloggedInUser] = useContext(userContext);
     const matchingData = vahicles.filter(dt => dt.id === id);
     const classes = useStyles();
+    document.title = "Search"
     const [fieldData, setFieldData] = useState({})
     const handleBlur = (event) => {
         const newInput = { ...fieldData };
