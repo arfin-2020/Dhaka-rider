@@ -1,0 +1,42 @@
+.input-div {
+  width: 400px;
+  background-color: #e5e5e5;
+  margin-left: 100px;
+  padding: 10px 10px;
+}
+.input-field {
+  width: 350px;
+  height: 40px;
+}
+.searchButton {
+  width: 350px;
+  height: 40px;
+  background-color: #ff6e40;
+  color: #e5e5e5;
+  font-weight: bold;
+  border: none;
+}
+.style {
+  width: 400px;
+  background-color: #e5e5e5;
+  margin-left: 100px;
+  padding: 10px 10px;
+}
+.divStyle {
+  background-color: #ffffff;
+  width: 350px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.timeline-Style {
+  background-color: #ff6e40;
+  color: #ffffff;
+  width: 350px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.color {
+  color: #ffffff;
+}

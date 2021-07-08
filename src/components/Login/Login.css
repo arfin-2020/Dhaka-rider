@@ -1,0 +1,30 @@
+.LoginDiv {
+  width: 700px;
+  height: 500px;
+  border: 2px solid #ababab;
+  padding: 10px 10px;
+  margin-left: 600px;
+  margin-top: 170px;
+}
+.formControl {
+  width: 350px;
+  height: 40px;
+  border: 2px solid #ff6e40;
+}
+.registerLoginBtn {
+  width: 350px;
+  height: 40px;
+  background-color: #ff6e40;
+  border: none;
+  color: white;
+}
+.googleBtn {
+  width: 350px;
+  height: 60px;
+  border: 2px solid #c7c7c7;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+.googleBtn:hover {
+  background-color: #cae00d;
+}
